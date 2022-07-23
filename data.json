@@ -1,0 +1,1630 @@
+{
+  "campaigns": [
+    {
+      "detail": {
+        "clubDecalUrl": "",
+        "campaignId": 28270,
+        "activityId": 300752,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62d382f2c4100.png?updateTimestamp=1658028789.png",
+        "campaign": {
+          "id": 28270,
+          "seasonUid": "NLS-fklzHUzshGgUXObuuxR9fOp3DPrPyn1arvt",
+          "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o34",
+          "color": "",
+          "useCase": 2,
+          "clubId": 43173,
+          "leaderboardGroupUid": "NLS-fklzHUzshGgUXObuuxR9fOp3DPrPyn1arvt",
+          "publicationTimestamp": 1658028768,
+          "startTimestamp": 1658028768,
+          "endTimestamp": 0,
+          "rankingSentTimestamp": null,
+          "year": -1,
+          "week": -1,
+          "day": -1,
+          "monthYear": -1,
+          "month": -1,
+          "monthDay": -1,
+          "published": true,
+          "playlist": [
+            {
+              "id": 313060,
+              "position": 0,
+              "mapUid": "4usq4hgJTtIivBiFqc4UuPU3v8m"
+            },
+            {
+              "id": 313061,
+              "position": 1,
+              "mapUid": "Yz6t74BUz9aTR6R22oD3CrAKxjk"
+            },
+            {
+              "id": 313062,
+              "position": 2,
+              "mapUid": "yEqqMuhs33PZddvX1wf21PHr0C4"
+            },
+            {
+              "id": 313063,
+              "position": 3,
+              "mapUid": "TOuvgmhortg9QtL2YUTsP65d3Cf"
+            },
+            {
+              "id": 313064,
+              "position": 4,
+              "mapUid": "SermkQl5A5DGoox_Y4ziX3YvIZ4"
+            },
+            {
+              "id": 313065,
+              "position": 5,
+              "mapUid": "VfeZIJaBza5sFY0E0Pm2vNKngcl"
+            },
+            {
+              "id": 313066,
+              "position": 6,
+              "mapUid": "86n0M_CVw9KecOikPq4CEjZEpQg"
+            },
+            {
+              "id": 313067,
+              "position": 7,
+              "mapUid": "vexMmPPRp3K_Dow3OZZgF5cECq1"
+            },
+            {
+              "id": 313068,
+              "position": 8,
+              "mapUid": "ihWp_yBScqKr3TRUC_emjYwyWC6"
+            },
+            {
+              "id": 313069,
+              "position": 9,
+              "mapUid": "FpR2XPXQMoCIibBrVg6_yhelbRi"
+            },
+            {
+              "id": 314296,
+              "position": 10,
+              "mapUid": "O_kUbFjdS4MtvtWGVHdl3e0Jgoj"
+            },
+            {
+              "id": 314297,
+              "position": 11,
+              "mapUid": "Yj67pNx1f7HysoI6Hp5rLCe7CKg"
+            },
+            {
+              "id": 314298,
+              "position": 12,
+              "mapUid": "_EPnFyLVX_CJBr_0O1eCo3_uMef"
+            },
+            {
+              "id": 314299,
+              "position": 13,
+              "mapUid": "dUizQnbDkPDiMYjzdE9SzE7XQXd"
+            },
+            {
+              "id": 314300,
+              "position": 14,
+              "mapUid": "meWM_2eAsQKYs6jkVWFVRL45_Td"
+            },
+            {
+              "id": 314301,
+              "position": 15,
+              "mapUid": "l6_oI1CjmMglAk4FXoZbD3lcuZf"
+            },
+            {
+              "id": 314302,
+              "position": 16,
+              "mapUid": "G95ezSSqDbPPWkE9wTe9FOTKJvi"
+            },
+            {
+              "id": 314303,
+              "position": 17,
+              "mapUid": "3293z5sUhw3okeOEFKkmh9nD944"
+            },
+            {
+              "id": 314304,
+              "position": 18,
+              "mapUid": "5VQrSvZuHRLAAw7YMAOXcVsyNV6"
+            },
+            {
+              "id": 314305,
+              "position": 19,
+              "mapUid": "a40SPRj7JqhmnMBqxGOOolyz2Bl"
+            },
+            {
+              "id": 314306,
+              "position": 20,
+              "mapUid": "7HWeZ9kJ5F_ZdIBvdLPZ5KjkKC4"
+            },
+            {
+              "id": 314307,
+              "position": 21,
+              "mapUid": "5WKFwefoZdqtCJKHbLXXVZCZdIf"
+            },
+            {
+              "id": 314308,
+              "position": 22,
+              "mapUid": "C_qkV4z8W1GZjwoYqjvnDYPxvB0"
+            }
+          ],
+          "latestSeasons": [
+            {
+              "uid": "NLS-fklzHUzshGgUXObuuxR9fOp3DPrPyn1arvt",
+              "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o34",
+              "startTimestamp": 1658028768,
+              "endTimestamp": 0,
+              "relativeStart": -526259,
+              "relativeEnd": 0,
+              "campaignId": 28270,
+              "active": true
+            }
+          ],
+          "categories": [
+            {
+              "position": 0,
+              "length": 5,
+              "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o34"
+            }
+          ],
+          "media": {
+            "buttonBackgroundUrl": "",
+            "buttonForegroundUrl": "",
+            "decalUrl": "",
+            "popUpBackgroundUrl": "",
+            "popUpImageUrl": "",
+            "liveButtonBackgroundUrl": "",
+            "liveButtonForegroundUrl": ""
+          },
+          "editionTimestamp": 1658368696
+        },
+        "popularityLevel": 0,
+        "publicationTimestamp": 1658028768,
+        "creationTimestamp": 1658028768,
+        "id": 300752,
+        "clubId": 43173,
+        "clubName": "$00F$O$S$I$WK$C3CE$0C9K$FC0L",
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o34",
+        "mapsCount": 23
+      },
+      "mapsDetail": [
+        {
+          "author": "c0057d7d-1a48-48e0-8e46-aa6a7ebcafe4",
+          "authorScore": 18427,
+          "bronzeScore": 28000,
+          "collectionName": "Stadium",
+          "filename": "kekl_-_scenery_of_the_day.Map.Gbx",
+          "goldScore": 20000,
+          "isPlayable": true,
+          "mapId": "be5f209c-54eb-4c06-8d8f-57b9398b2903",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "_EPnFyLVX_CJBr_0O1eCo3_uMef",
+          "name": "kekl - scenery of the day",
+          "silverScore": 23000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:25+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/89b360b1-f0a5-49ae-947e-f9580d4c602d",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/c1d22969-9a42-49bf-a25a-4a229eebff66.jpg"
+        },
+        {
+          "author": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "authorScore": 26522,
+          "bronzeScore": 40000,
+          "collectionName": "Stadium",
+          "filename": "trackmania olympics.Map.Gbx",
+          "goldScore": 29000,
+          "isPlayable": true,
+          "mapId": "3e7958d7-9ff9-417f-bdc0-256b8d8f5d62",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "3293z5sUhw3okeOEFKkmh9nD944",
+          "name": "trackmania olympics",
+          "silverScore": 32000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:27+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/a8e03013-8918-4cf6-8f38-766f611d1834",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/6f97cd5f-5e76-4d1f-83ea-aee36415229f.jpg"
+        },
+        {
+          "author": "a07f01cd-afb0-4230-9c13-868c1ede28a3",
+          "authorScore": 39748,
+          "bronzeScore": 60000,
+          "collectionName": "Stadium",
+          "filename": "Tunnels__Drifts_but_for_KEKL.Map.Gbx",
+          "goldScore": 43000,
+          "isPlayable": true,
+          "mapId": "f9d8563c-0b14-45a9-8841-1a04533d8672",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "4usq4hgJTtIivBiFqc4UuPU3v8m",
+          "name": "$o$sTunnels & $FFFD$FCCr$F99i$F66f$F33t$F00s but for KEKL",
+          "silverScore": 48000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-17T03:32:41+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/d3647120-1d26-48d7-bf02-640f957115af",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/e6286cca-233b-49f4-9d0e-e5bd782af062.jpg"
+        },
+        {
+          "author": "c42ed2e9-19f5-4a01-9ea9-63b20ceed07f",
+          "authorScore": 34576,
+          "bronzeScore": 52000,
+          "collectionName": "Stadium",
+          "filename": "SuperRedKEKL #35 - Three Blocks Each.Map.Gbx",
+          "goldScore": 37000,
+          "isPlayable": true,
+          "mapId": "3c887793-965e-401a-9a85-5a61170d00bd",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "5VQrSvZuHRLAAw7YMAOXcVsyNV6",
+          "name": "$f00Su$e00perR$d00edK$c00EKL #$b0035 - $a00Thr$900ee Bl$800ock$700s Eac$600h",
+          "silverScore": 42000,
+          "submitter": "c42ed2e9-19f5-4a01-9ea9-63b20ceed07f",
+          "timestamp": "2022-07-20T23:11:09+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/9492e483-99c0-4a19-9e33-271342e026b7",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/da30f756-0994-4ebb-b4ec-a51daf584a37.jpg"
+        },
+        {
+          "author": "7eb2038a-63df-4b14-ac24-0c3a6ff3f5ac",
+          "authorScore": 52997,
+          "bronzeScore": 80000,
+          "collectionName": "Stadium",
+          "filename": "KEKL_-_SkiFree.Map.Gbx",
+          "goldScore": 57000,
+          "isPlayable": true,
+          "mapId": "90ce646f-734c-4f5c-bc8c-b49d5fb89bf2",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "5WKFwefoZdqtCJKHbLXXVZCZdIf",
+          "name": "KEKL - SkiFree",
+          "silverScore": 64000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:30+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/bdb204d1-fd1c-4d1b-9bd1-4345830a03b4",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/2eb9e9e7-2ce7-496c-b39f-e1fcddc2181e.jpg"
+        },
+        {
+          "author": "b5425333-539d-4629-8b0b-5012a9d72f6b",
+          "authorScore": 37408,
+          "bronzeScore": 57000,
+          "collectionName": "Stadium",
+          "filename": "KEKL_Rusty_Bones_Timberland.Map.Gbx",
+          "goldScore": 40000,
+          "isPlayable": true,
+          "mapId": "46ed9f22-fc1e-4c39-ae42-6445dcc54c08",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "7HWeZ9kJ5F_ZdIBvdLPZ5KjkKC4",
+          "name": "KEKL Rusty Bones Timberland",
+          "silverScore": 45000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:29+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/385dd11b-acd9-478e-855c-08a792393ca6",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/b3ea6633-aeb4-436c-bb50-1db820025b25.jpg"
+        },
+        {
+          "author": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "authorScore": 17416,
+          "bronzeScore": 27000,
+          "collectionName": "Stadium",
+          "filename": "my toenail is growing back.Map.Gbx",
+          "goldScore": 19000,
+          "isPlayable": true,
+          "mapId": "6aed5805-43f9-41f5-8386-10bbcfc66f8c",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "86n0M_CVw9KecOikPq4CEjZEpQg",
+          "name": "my toenail is growing back",
+          "silverScore": 21000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-17T03:32:46+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/9179a5e5-b52f-466b-82e4-9f34252c92f4",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/2b31c5f2-09d4-461c-8f7f-096c7a040093.jpg"
+        },
+        {
+          "author": "e5ed5a9c-fdaf-4c8a-872b-50da739f91a4",
+          "authorScore": 31421,
+          "bronzeScore": 48000,
+          "collectionName": "Stadium",
+          "filename": "Rooftops.Map.Gbx",
+          "goldScore": 34000,
+          "isPlayable": true,
+          "mapId": "209d524d-6b94-434a-9321-2ce9744e867c",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "a40SPRj7JqhmnMBqxGOOolyz2Bl",
+          "name": "Rooftops",
+          "silverScore": 38000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:28+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/7bf0288c-e7ce-4248-86e4-778b44ea5569",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/3b05d63d-1c52-4312-8829-79628baa8265.jpg"
+        },
+        {
+          "author": "a07f01cd-afb0-4230-9c13-868c1ede28a3",
+          "authorScore": 60539,
+          "bronzeScore": 91000,
+          "collectionName": "Stadium",
+          "filename": "KEKL - QuakeMultiLap.Map.Gbx",
+          "goldScore": 65000,
+          "isPlayable": true,
+          "mapId": "d1a98f73-8c3c-4080-830a-f30dff928bc0",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "C_qkV4z8W1GZjwoYqjvnDYPxvB0",
+          "name": "KEKL - QuakeMultiLap",
+          "silverScore": 73000,
+          "submitter": "a07f01cd-afb0-4230-9c13-868c1ede28a3",
+          "timestamp": "2022-07-21T01:01:27+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/71946071-0e06-4b45-92bc-c2ee28d9e57f",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/c0321f30-65d2-4817-b795-a0f1ecc758ea.jpg"
+        },
+        {
+          "author": "247e03bd-18bb-4a98-a880-5ab085eebdd2",
+          "authorScore": 18555,
+          "bronzeScore": 28000,
+          "collectionName": "Stadium",
+          "filename": "when_u_discover_magnets_for_the_first_time.Map.Gbx",
+          "goldScore": 20000,
+          "isPlayable": true,
+          "mapId": "07372fa0-8a22-45c0-8ba3-5d06b845f159",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "dUizQnbDkPDiMYjzdE9SzE7XQXd",
+          "name": "when u discover magnets for the first time",
+          "silverScore": 23000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:26+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/f6ede47a-3716-4efe-abc6-b49d5ec0b86f",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/ecd1586a-24a7-4dd1-a215-35863a722d1a.jpg"
+        },
+        {
+          "author": "24694142-d2ff-4c46-a437-77ce47319a5b",
+          "authorScore": 64282,
+          "bronzeScore": 97000,
+          "collectionName": "Stadium",
+          "filename": "KEKL_Lowkey-Sausages.Map.Gbx",
+          "goldScore": 69000,
+          "isPlayable": true,
+          "mapId": "4eba09f3-e569-4a4b-b014-936c44ed9c71",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "FpR2XPXQMoCIibBrVg6_yhelbRi",
+          "name": "[KEKL] Lowkey-Sausages",
+          "silverScore": 78000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-17T03:32:48+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/4b0210dc-3780-4a35-ad32-8fd3b4faae85",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/5d30e1a6-411d-4533-bdd0-867af8a33781.jpg"
+        },
+        {
+          "author": "ad41996b-495f-47ac-9a80-1d01b2849323",
+          "authorScore": 40666,
+          "bronzeScore": 61000,
+          "collectionName": "Stadium",
+          "filename": "Eagle_Circuit.Map.Gbx",
+          "goldScore": 44000,
+          "isPlayable": true,
+          "mapId": "2c2471cd-1e55-44ca-ab97-2195d10f2156",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "G95ezSSqDbPPWkE9wTe9FOTKJvi",
+          "name": "Eagle Circuit",
+          "silverScore": 49000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:26+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/6bd5e917-2938-4207-8879-2ebcc8eb005d",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/8fa54db8-6895-4847-aef8-f37b5301874b.jpg"
+        },
+        {
+          "author": "c0057d7d-1a48-48e0-8e46-aa6a7ebcafe4",
+          "authorScore": 47617,
+          "bronzeScore": 72000,
+          "collectionName": "Stadium",
+          "filename": "kekl_-_batchest_water.Map.Gbx",
+          "goldScore": 51000,
+          "isPlayable": true,
+          "mapId": "2d97b787-f1cd-4bb0-a530-876e209244a3",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "ihWp_yBScqKr3TRUC_emjYwyWC6",
+          "name": "kekl - batchest water",
+          "silverScore": 58000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-17T03:32:47+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/7d512210-6cc9-4fbe-81d9-d9d2b46ddd5a",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/e3e37f10-03a7-4061-bc4b-6cd2c8f89a1b.jpg"
+        },
+        {
+          "author": "b3d28760-82f1-4a34-8243-60e2e13a625c",
+          "authorScore": 13954,
+          "bronzeScore": 21000,
+          "collectionName": "Stadium",
+          "filename": "Kekl_Votre_Maman_Deux.Map.Gbx",
+          "goldScore": 15000,
+          "isPlayable": true,
+          "mapId": "509bb1f2-bd79-4fa3-b7b7-d055a777822d",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "l6_oI1CjmMglAk4FXoZbD3lcuZf",
+          "name": "Kekl Votre Maman Deux",
+          "silverScore": 17000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:26+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/dda35405-d4d8-4c92-93dc-3f2c335bee97",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/060680f0-0c1f-4bf0-936f-0fa03bbb5622.jpg"
+        },
+        {
+          "author": "7260004f-145a-4793-8cff-4fdc9df52465",
+          "authorScore": 12944,
+          "bronzeScore": 20000,
+          "collectionName": "Stadium",
+          "filename": "Factory Mini.Map.Gbx",
+          "goldScore": 14000,
+          "isPlayable": true,
+          "mapId": "9c2d0206-7691-4dc2-a4d6-8b26fd1727ef",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "meWM_2eAsQKYs6jkVWFVRL45_Td",
+          "name": "Factory Mini",
+          "silverScore": 16000,
+          "submitter": "7260004f-145a-4793-8cff-4fdc9df52465",
+          "timestamp": "2022-07-21T01:38:30+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/be326a4a-1b78-49d2-9261-cd5c7e56ce9b",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/1611b15f-2adf-4a68-a35c-1eb7302e2a4f.jpg"
+        },
+        {
+          "author": "a2a59490-6834-4ba1-bdb9-ea18097570c8",
+          "authorScore": 58284,
+          "bronzeScore": 88000,
+          "collectionName": "Stadium",
+          "filename": "KEKL_-_Super_Chill_now_without_cuts.Map.Gbx",
+          "goldScore": 62000,
+          "isPlayable": true,
+          "mapId": "f665e937-aa07-451b-9425-ff243268293d",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "O_kUbFjdS4MtvtWGVHdl3e0Jgoj",
+          "name": "$i$sKEKL - Super Chill, now without cuts!",
+          "silverScore": 70000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-21T00:22:25+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/dbadf373-294b-4ebb-a9dd-3895dad40ed9",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/2aa170a7-f1d5-42c3-a55a-70b14c12eeb7.jpg"
+        },
+        {
+          "author": "aa933781-714d-4273-8d98-bd0f116cf1e8",
+          "authorScore": 22993,
+          "bronzeScore": 35000,
+          "collectionName": "Stadium",
+          "filename": "ice_all_year_round.Map.Gbx",
+          "goldScore": 25000,
+          "isPlayable": true,
+          "mapId": "0f4f68ec-a5b1-4195-932c-ae8d4d35e5ad",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "SermkQl5A5DGoox_Y4ziX3YvIZ4",
+          "name": "ice all year round",
+          "silverScore": 28000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-17T03:32:45+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/10e1718e-6a82-4edf-afdc-a832ebb274a5",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/a278ca5e-b9e8-4224-9629-feff05a874f4.jpg"
+        },
+        {
+          "author": "e2edd2e2-a5fd-4641-9f21-b8da7675c52b",
+          "authorScore": 29409,
+          "bronzeScore": 45000,
+          "collectionName": "Stadium",
+          "filename": "Junk_Drawer.Map.Gbx",
+          "goldScore": 32000,
+          "isPlayable": true,
+          "mapId": "1ba2c1bc-10e6-4942-af25-edaeaeaa804a",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "TOuvgmhortg9QtL2YUTsP65d3Cf",
+          "name": "Junk Drawer",
+          "silverScore": 36000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-17T03:32:44+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/2103d139-f980-467d-a67c-4c8e792d828a",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/003c4351-43b7-41b4-abd8-aed0a2f33ad5.jpg"
+        },
+        {
+          "author": "b5425333-539d-4629-8b0b-5012a9d72f6b",
+          "authorScore": 19742,
+          "bronzeScore": 30000,
+          "collectionName": "Stadium",
+          "filename": "Kekl_Techl_Metal_Mini.Map.Gbx",
+          "goldScore": 21000,
+          "isPlayable": true,
+          "mapId": "a8153199-5570-4179-aac6-2de8956e4c5d",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "vexMmPPRp3K_Dow3OZZgF5cECq1",
+          "name": "Kekl Techl Metal Mini",
+          "silverScore": 24000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-17T03:32:47+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/7903af61-14d3-45cb-86cf-2b75bde168cb",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/58ebd21e-47ab-46d8-b456-6b3d7d9aa3bc.jpg"
+        },
+        {
+          "author": "1c0cccfa-fec1-4c9e-ac90-dd08d3bc735f",
+          "authorScore": 20648,
+          "bronzeScore": 31000,
+          "collectionName": "Stadium",
+          "filename": "KEKL _ Water Wall.Map.Gbx",
+          "goldScore": 22000,
+          "isPlayable": true,
+          "mapId": "2f119dea-b18b-4932-b2ce-e2d894cc4f51",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "VfeZIJaBza5sFY0E0Pm2vNKngcl",
+          "name": "KEKL | Water Wall",
+          "silverScore": 25000,
+          "submitter": "1c0cccfa-fec1-4c9e-ac90-dd08d3bc735f",
+          "timestamp": "2022-07-17T02:28:40+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/699afe84-3fb6-4ab4-a64a-ac0653375843",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/6f69b961-7e24-4627-9bdf-613e650add87.jpg"
+        },
+        {
+          "author": "c42ed2e9-19f5-4a01-9ea9-63b20ceed07f",
+          "authorScore": 26018,
+          "bronzeScore": 40000,
+          "collectionName": "Stadium",
+          "filename": "SuperRedKEKL #34 - Don't use Bobsleigh this way.Map.Gbx",
+          "goldScore": 28000,
+          "isPlayable": true,
+          "mapId": "00da4c37-fa4f-48b7-ab43-182e0ce1dc6e",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "yEqqMuhs33PZddvX1wf21PHr0C4",
+          "name": "$f00Sup$e00erRedK$d00EKL #34 $c00- Don't $b00use Bob$a00sleig$900h this w$800ay",
+          "silverScore": 32000,
+          "submitter": "c42ed2e9-19f5-4a01-9ea9-63b20ceed07f",
+          "timestamp": "2022-07-17T02:31:52+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/5ae8666a-ae24-40bd-8e66-4147ef059ef0",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/ccafcc3f-b74a-41c6-9700-a9ad2063171b.jpg"
+        },
+        {
+          "author": "f36cac49-391e-4621-aa64-82069ed68c78",
+          "authorScore": 8935,
+          "bronzeScore": 14000,
+          "collectionName": "Stadium",
+          "filename": "kekl-bad.Map.Gbx",
+          "goldScore": 10000,
+          "isPlayable": true,
+          "mapId": "60d08809-bd52-4c2f-9cb1-3a836266ea90",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "Yj67pNx1f7HysoI6Hp5rLCe7CKg",
+          "name": "kekl-bad",
+          "silverScore": 11000,
+          "submitter": "f36cac49-391e-4621-aa64-82069ed68c78",
+          "timestamp": "2022-07-20T22:59:25+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/6223bff6-1e7d-4599-b662-f3954112af5c",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/358fed51-8d57-4272-9b42-734e404b5bf8.jpg"
+        },
+        {
+          "author": "a2a59490-6834-4ba1-bdb9-ea18097570c8",
+          "authorScore": 37705,
+          "bronzeScore": 57000,
+          "collectionName": "Stadium",
+          "filename": "KEKL_-_Late_Morning_Party_Stuff.Map.Gbx",
+          "goldScore": 40000,
+          "isPlayable": true,
+          "mapId": "7e5bd9fc-9ddb-4e93-8696-d181051d2ded",
+          "mapStyle": "",
+          "mapType": "TrackMania\\TM_Race",
+          "mapUid": "Yz6t74BUz9aTR6R22oD3CrAKxjk",
+          "name": "$i$sKEKL - Late Morning Party Stuff",
+          "silverScore": 46000,
+          "submitter": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+          "timestamp": "2022-07-17T03:32:42+00:00",
+          "fileUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/7124875e-9f2b-4221-9cd3-8fd6e8aba5a5",
+          "thumbnailUrl": "https://prod.trackmania.core.nadeo.online/storageObjects/27c63183-3a86-447a-85ce-96ed892a6178.jpg"
+        }
+      ],
+      "mapsRecords": {
+        "_EPnFyLVX_CJBr_0O1eCo3_uMef": {
+          "tops": [
+            {
+              "player": {
+                "name": "NorthTM",
+                "tag": "$00F↑",
+                "id": "247e03bd-18bb-4a98-a880-5ab085eebdd2",
+                "zone": {
+                  "name": "Illinois",
+                  "flag": "Illinois",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {
+                  "twitch": "Norrtth",
+                  "youtube": "UCIMgVX84p4e-YJ-GVhLIMUQ",
+                  "twitter": "Norrtth"
+                }
+              },
+              "position": 1,
+              "time": 17071,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_247e03bd-18bb-4a98-a880-5ab085eebdd2_(0'17''7).replay.gbx",
+              "timestamp": "2022-07-21T23:23:22+00:00",
+              "url": "/api/download/ghost/0bef077a-6adf-4e72-8b2d-d7b58ef787ae"
+            },
+            {
+              "player": {
+                "name": "rockskater89",
+                "tag": "$F96PEACH",
+                "id": "10aefde4-f046-40bc-b024-a2ce9c612e26",
+                "zone": {
+                  "name": "Georgia",
+                  "flag": "Georgia",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                }
+              },
+              "position": 2,
+              "time": 17412,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_10aefde4-f046-40bc-b024-a2ce9c612e26_(0'17''41).replay.gbx",
+              "timestamp": "2022-07-21T00:43:26+00:00",
+              "url": "/api/download/ghost/fa683562-09bc-47ba-8106-0f360bcd327a"
+            },
+            {
+              "player": {
+                "name": "Beluga71",
+                "tag": "$F96PEACH",
+                "id": "808ad399-63fb-4b41-afaa-456bff4cd42b",
+                "zone": {
+                  "name": "Georgia",
+                  "flag": "Georgia",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {
+                  "twitch": "MrBeluga71",
+                  "youtube": "UC_B2I7anDFSKwH0AzZXjw3A"
+                }
+              },
+              "position": 3,
+              "time": 17967,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_808ad399-63fb-4b41-afaa-456bff4cd42b_(0'17''96).replay.gbx",
+              "timestamp": "2022-07-20T23:24:36+00:00",
+              "url": "/api/download/ghost/2b956064-a77d-495f-8c28-f2240283456c"
+            },
+            {
+              "player": {
+                "name": "Pug_Zerg",
+                "id": "c0057d7d-1a48-48e0-8e46-aa6a7ebcafe4",
+                "zone": {
+                  "name": "Colorado",
+                  "flag": "Colorado",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {}
+              },
+              "position": 4,
+              "time": 17976,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_c0057d7d-1a48-48e0-8e46-aa6a7ebcafe4_(0'17''97).replay.gbx",
+              "timestamp": "2022-07-21T00:50:01+00:00",
+              "url": "/api/download/ghost/0a89f81d-1f9b-4eef-b42a-69ffdfcee3a2"
+            },
+            {
+              "player": {
+                "name": "Vekisis",
+                "tag": "$S$333ⓞ$FFFⓒ$F60ⓓ$333ッ",
+                "id": "e5ed5a9c-fdaf-4c8a-872b-50da739f91a4",
+                "zone": {
+                  "name": "Colorado",
+                  "flag": "Colorado",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                }
+              },
+              "position": 5,
+              "time": 18016,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_e5ed5a9c-fdaf-4c8a-872b-50da739f91a4_(0'18''1).replay.gbx",
+              "timestamp": "2022-07-20T23:24:38+00:00",
+              "url": "/api/download/ghost/d033f9ad-4487-4d11-8dcc-b573ae53e2de"
+            },
+            {
+              "player": {
+                "name": "Meest0",
+                "tag": "$S$W$C00A$C60★$FF0Z",
+                "id": "ad41996b-495f-47ac-9a80-1d01b2849323",
+                "zone": {
+                  "name": "Arizona",
+                  "flag": "Arizona",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                }
+              },
+              "position": 6,
+              "time": 18123,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_ad41996b-495f-47ac-9a80-1d01b2849323_(0'18''12).replay.gbx",
+              "timestamp": "2022-07-20T23:25:24+00:00",
+              "url": "/api/download/ghost/41fbf018-958c-4419-b77e-448796faa904"
+            },
+            {
+              "player": {
+                "name": "ItsPhineasTM",
+                "tag": "$S$93FPHINE",
+                "id": "b3d28760-82f1-4a34-8243-60e2e13a625c",
+                "zone": {
+                  "name": "Illinois",
+                  "flag": "Illinois",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {
+                  "twitch": "itsphineas",
+                  "youtube": "UC6F8dr2Zz-Mb6LQLpkuYsQg"
+                }
+              },
+              "position": 7,
+              "time": 18479,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_b3d28760-82f1-4a34-8243-60e2e13a625c_(0'18''47).replay.gbx",
+              "timestamp": "2022-07-20T23:24:37+00:00",
+              "url": "/api/download/ghost/62b91489-2c3b-4f23-8d4b-331a100a4e2d"
+            },
+            {
+              "player": {
+                "name": "MattDTO",
+                "tag": "$00F$O$S$I$WK$C3CE$0C9K$FC0L",
+                "id": "b5425333-539d-4629-8b0b-5012a9d72f6b",
+                "zone": {
+                  "name": "Minnesota",
+                  "flag": "Minnesota",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {}
+              },
+              "position": 8,
+              "time": 18494,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_b5425333-539d-4629-8b0b-5012a9d72f6b_(0'18''49).replay.gbx",
+              "timestamp": "2022-07-20T23:22:45+00:00",
+              "url": "/api/download/ghost/239b9211-d4bf-446b-b4c2-cf15023ef01c"
+            },
+            {
+              "player": {
+                "name": "Plambt",
+                "tag": "$S$O$FFF( $88F+ $FFF)$Z",
+                "id": "7260004f-145a-4793-8cff-4fdc9df52465",
+                "zone": {
+                  "name": "Florida",
+                  "flag": "Florida",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {
+                  "twitch": "plantathon",
+                  "twitter": "plantathon_TM"
+                }
+              },
+              "position": 9,
+              "time": 19612,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_7260004f-145a-4793-8cff-4fdc9df52465_(0'19''61).replay.gbx",
+              "timestamp": "2022-07-20T23:25:27+00:00",
+              "url": "/api/download/ghost/a5c1e930-a2e7-4313-83e4-48e03644cd2e"
+            },
+            {
+              "player": {
+                "name": "eyebo",
+                "tag": "$S$FFFT$6F9MX$Z",
+                "id": "a07f01cd-afb0-4230-9c13-868c1ede28a3",
+                "zone": {
+                  "name": "Kansas",
+                  "flag": "Kansas",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {
+                  "vanity": "eyebo",
+                  "nadeo": true,
+                  "twitch": "eyebo2",
+                  "youtube": "UCjNlwo2bCa_mGoKWqK55V7w",
+                  "twitter": "mx_eyebo"
+                }
+              },
+              "position": 10,
+              "time": 20157,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_a07f01cd-afb0-4230-9c13-868c1ede28a3_(0'20''15).replay.gbx",
+              "timestamp": "2022-07-20T23:23:44+00:00",
+              "url": "/api/download/ghost/c2456e74-90c2-423a-a569-44c1a052724e"
+            },
+            {
+              "player": {
+                "name": "Rexasaurus.",
+                "tag": "$F96PEACH",
+                "id": "a2a59490-6834-4ba1-bdb9-ea18097570c8",
+                "zone": {
+                  "name": "Georgia",
+                  "flag": "Georgia",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {}
+              },
+              "position": 11,
+              "time": 21062,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_a2a59490-6834-4ba1-bdb9-ea18097570c8_(0'21''6).replay.gbx",
+              "timestamp": "2022-07-20T23:22:52+00:00",
+              "url": "/api/download/ghost/4164fe1d-92ce-4b31-bcdd-4c7a12eec74d"
+            },
+            {
+              "player": {
+                "name": "SuperRedNova-TM",
+                "tag": "$C00S$900R$600N",
+                "id": "c42ed2e9-19f5-4a01-9ea9-63b20ceed07f",
+                "zone": {
+                  "name": "Arizona",
+                  "flag": "Arizona",
+                  "parent": {
+                    "name": "United States",
+                    "flag": "USA",
+                    "parent": {
+                      "name": "North America",
+                      "flag": "namerica",
+                      "parent": {
+                        "name": "World",
+                        "flag": "WOR"
+                      }
+                    }
+                  }
+                },
+                "meta": {}
+              },
+              "position": 12,
+              "time": 25795,
+              "filename": "Replays\\Downloaded\\be5f209c-54eb-4c06-8d8f-57b9398b2903_c42ed2e9-19f5-4a01-9ea9-63b20ceed07f_(0'25''79).replay.gbx",
+              "timestamp": "2022-07-20T23:24:46+00:00",
+              "url": "/api/download/ghost/8aebf108-6aff-4085-8a22-73f609a94135"
+            }
+          ],
+          "playercount": 12
+        }
+      }
+    }
+  ],
+  "activity": {
+    "activityList": [
+      {
+        "id": 235108,
+        "name": "KEKL 80",
+        "activityType": "room",
+        "activityId": 235108,
+        "targetActivityId": 235108,
+        "campaignId": 0,
+        "position": 0,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/620073bd70bea.png?updateTimestamp=1644196800.png",
+        "externalId": 0,
+        "featured": false,
+        "password": false,
+        "itemsCount": 0,
+        "clubId": 43173
+      },
+      {
+        "id": 254048,
+        "name": "Best of KEKL 1-10",
+        "activityType": "campaign",
+        "activityId": 254048,
+        "targetActivityId": 254048,
+        "campaignId": 21875,
+        "position": 1,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/626eb963100ed.png?updateTimestamp=1651423589.png",
+        "externalId": 21875,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 268540,
+        "name": "Best Of KEKL 11-20",
+        "activityType": "campaign",
+        "activityId": 268540,
+        "targetActivityId": 268540,
+        "campaignId": 24081,
+        "position": 2,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62772ab493bf3.png?updateTimestamp=1651976887.png",
+        "externalId": 24081,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 300752,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o34",
+        "activityType": "campaign",
+        "activityId": 300752,
+        "targetActivityId": 300752,
+        "campaignId": 28270,
+        "position": 3,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62d382f2c4100.png?updateTimestamp=1658028789.png",
+        "externalId": 28270,
+        "featured": false,
+        "password": false,
+        "itemsCount": 23,
+        "clubId": 43173
+      },
+      {
+        "id": 297283,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o33",
+        "activityType": "campaign",
+        "activityId": 297283,
+        "targetActivityId": 297283,
+        "campaignId": 27800,
+        "position": 4,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62c626cfe8d83.png?updateTimestamp=1657153234.png",
+        "externalId": 27800,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 295950,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o32",
+        "activityType": "campaign",
+        "activityId": 295950,
+        "targetActivityId": 295950,
+        "campaignId": 27641,
+        "position": 5,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62c4bbd0aa0f9.png?updateTimestamp=1657060307.png",
+        "externalId": 27641,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 293437,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o31",
+        "activityType": "campaign",
+        "activityId": 293437,
+        "targetActivityId": 293437,
+        "campaignId": 27311,
+        "position": 6,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62b7d88dbb6bd.png?updateTimestamp=1656215696.png",
+        "externalId": 27311,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 291376,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o30",
+        "activityType": "campaign",
+        "activityId": 291376,
+        "targetActivityId": 291376,
+        "campaignId": 27027,
+        "position": 7,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62ae99b54bcd0.png?updateTimestamp=1655609784.png",
+        "externalId": 27027,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 288254,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 29",
+        "activityType": "campaign",
+        "activityId": 288254,
+        "targetActivityId": 288254,
+        "campaignId": 26540,
+        "position": 8,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62a13e2fe0bf3.png?updateTimestamp=1654734386.png",
+        "externalId": 26540,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 284383,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 28",
+        "activityType": "campaign",
+        "activityId": 284383,
+        "targetActivityId": 284383,
+        "campaignId": 26105,
+        "position": 9,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6292e92bd0767.png?updateTimestamp=1653795118.png",
+        "externalId": 26105,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 281855,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 27",
+        "activityType": "campaign",
+        "activityId": 281855,
+        "targetActivityId": 281855,
+        "campaignId": 25789,
+        "position": 10,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6289b4a12d43c.png?updateTimestamp=1653191844.png",
+        "externalId": 25789,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 277759,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 26",
+        "activityType": "campaign",
+        "activityId": 277759,
+        "targetActivityId": 277759,
+        "campaignId": 25263,
+        "position": 12,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/628084a4cc903.png?updateTimestamp=1652589736.png",
+        "externalId": 25263,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 274940,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 25",
+        "activityType": "campaign",
+        "activityId": 274940,
+        "targetActivityId": 274940,
+        "campaignId": 24907,
+        "position": 13,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62772ad02bf97.png?updateTimestamp=1651976915.png",
+        "externalId": 24907,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 272225,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 24",
+        "activityType": "campaign",
+        "activityId": 272225,
+        "targetActivityId": 272225,
+        "campaignId": 24490,
+        "position": 14,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/626eb8af666ea.png?updateTimestamp=1651423410.png",
+        "externalId": 24490,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 270699,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 23",
+        "activityType": "campaign",
+        "activityId": 270699,
+        "targetActivityId": 270699,
+        "campaignId": 24323,
+        "position": 15,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6264cd719d433.png?updateTimestamp=1650773364.png",
+        "externalId": 24323,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 268009,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 22",
+        "activityType": "campaign",
+        "activityId": 268009,
+        "targetActivityId": 268009,
+        "campaignId": 24020,
+        "position": 16,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/625cb117a9d23.png?updateTimestamp=1650241818.png",
+        "externalId": 24020,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 264555,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 21",
+        "activityType": "campaign",
+        "activityId": 264555,
+        "targetActivityId": 264555,
+        "campaignId": 23443,
+        "position": 17,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6253718bba7a5.png?updateTimestamp=1649635727.png",
+        "externalId": 23443,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 263333,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o 20",
+        "activityType": "campaign",
+        "activityId": 263333,
+        "targetActivityId": 263333,
+        "campaignId": 23286,
+        "position": 18,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/624e2fbb783a0.png?updateTimestamp=1649291198.png",
+        "externalId": 23286,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 261985,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o19",
+        "activityType": "campaign",
+        "activityId": 261985,
+        "targetActivityId": 261985,
+        "campaignId": 23105,
+        "position": 19,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6249195c6f31b.png?updateTimestamp=1648957791.png",
+        "externalId": 23105,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 259229,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o18",
+        "activityType": "campaign",
+        "activityId": 259229,
+        "targetActivityId": 259229,
+        "campaignId": 22715,
+        "position": 20,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/623fe4cb7b5ae.png?updateTimestamp=1648354510.png",
+        "externalId": 22715,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 257926,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o17",
+        "activityType": "campaign",
+        "activityId": 257926,
+        "targetActivityId": 257926,
+        "campaignId": 22493,
+        "position": 21,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6237d8fa6c6ad.png?updateTimestamp=1647827197.png",
+        "externalId": 22493,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 256367,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o16",
+        "activityType": "campaign",
+        "activityId": 256367,
+        "targetActivityId": 256367,
+        "campaignId": 22258,
+        "position": 22,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/622e9a995b900.png?updateTimestamp=1647221404.png",
+        "externalId": 22258,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 256187,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o15",
+        "activityType": "campaign",
+        "activityId": 256187,
+        "targetActivityId": 256187,
+        "campaignId": 22222,
+        "position": 23,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/622d7ca61d03b.png?updateTimestamp=1647148200.png",
+        "externalId": 22222,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 254875,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o14",
+        "activityType": "campaign",
+        "activityId": 254875,
+        "targetActivityId": 254875,
+        "campaignId": 22000,
+        "position": 24,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6225636dd4851.png?updateTimestamp=1646617457.png",
+        "externalId": 22000,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 253553,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o13",
+        "activityType": "campaign",
+        "activityId": 253553,
+        "targetActivityId": 253553,
+        "campaignId": 21798,
+        "position": 25,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/621c21fd9b602.png?updateTimestamp=1646010881.png",
+        "externalId": 21798,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 252688,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o12",
+        "activityType": "campaign",
+        "activityId": 252688,
+        "targetActivityId": 252688,
+        "campaignId": 21642,
+        "position": 27,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6216daa6391ba.png?updateTimestamp=1645664937.png",
+        "externalId": 21642,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 251745,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o11",
+        "activityType": "campaign",
+        "activityId": 251745,
+        "targetActivityId": 251745,
+        "campaignId": 21477,
+        "position": 28,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6211c9126c146.png?updateTimestamp=1645332757.png",
+        "externalId": 21477,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 250197,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o10",
+        "activityType": "campaign",
+        "activityId": 250197,
+        "targetActivityId": 250197,
+        "campaignId": 21254,
+        "position": 29,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6209ae62523dc.png?updateTimestamp=1644801637.png",
+        "externalId": 21254,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 248329,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o9",
+        "activityType": "campaign",
+        "activityId": 248329,
+        "targetActivityId": 248329,
+        "campaignId": 20970,
+        "position": 33,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/620073a389cf8.png?updateTimestamp=1644196774.png",
+        "externalId": 20970,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 247156,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o8",
+        "activityType": "campaign",
+        "activityId": 247156,
+        "targetActivityId": 247156,
+        "campaignId": 20787,
+        "position": 35,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62007391b0011.png?updateTimestamp=1644196756.png",
+        "externalId": 20787,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 245817,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o7",
+        "activityType": "campaign",
+        "activityId": 245817,
+        "targetActivityId": 245817,
+        "campaignId": 20587,
+        "position": 36,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6200737f9200b.png?updateTimestamp=1644196738.png",
+        "externalId": 20587,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 243846,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o6",
+        "activityType": "campaign",
+        "activityId": 243846,
+        "targetActivityId": 243846,
+        "campaignId": 20305,
+        "position": 37,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6200736751e19.png?updateTimestamp=1644196714.png",
+        "externalId": 20305,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 240801,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o5",
+        "activityType": "campaign",
+        "activityId": 240801,
+        "targetActivityId": 240801,
+        "campaignId": 19919,
+        "position": 38,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/6200734eea511.png?updateTimestamp=1644196690.png",
+        "externalId": 19919,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 238606,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o4",
+        "activityType": "campaign",
+        "activityId": 238606,
+        "targetActivityId": 238606,
+        "campaignId": 19673,
+        "position": 39,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/620073392bbc5.png?updateTimestamp=1644196667.png",
+        "externalId": 19673,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 235453,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o3",
+        "activityType": "campaign",
+        "activityId": 235453,
+        "targetActivityId": 235453,
+        "campaignId": 19280,
+        "position": 40,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/62007327364cd.png?updateTimestamp=1644196650.png",
+        "externalId": 19280,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 235121,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o2",
+        "activityType": "campaign",
+        "activityId": 235121,
+        "targetActivityId": 235121,
+        "campaignId": 19250,
+        "position": 41,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/620073130cbf5.png?updateTimestamp=1644196630.png",
+        "externalId": 19250,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      },
+      {
+        "id": 235051,
+        "name": "$00F$O$S$IK$C3CE$0C9K$FC0L $00FM$C3Ca$0C9p$FC0s $g$z$o1",
+        "activityType": "campaign",
+        "activityId": 235051,
+        "targetActivityId": 235051,
+        "campaignId": 19244,
+        "position": 42,
+        "public": true,
+        "active": true,
+        "mediaUrl": "https://trackmania-prod-nls-file-store-s3.cdn.ubi.com/club/card/43173/620072f43d079.png?updateTimestamp=1644196599.png",
+        "externalId": 19244,
+        "featured": false,
+        "password": false,
+        "itemsCount": 25,
+        "clubId": 43173
+      }
+    ],
+    "maxPage": 1,
+    "itemCount": 37
+  }
+}
