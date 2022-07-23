@@ -12,7 +12,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.TM_GITHUB_TOKEN }}
       TM_EMAIL: ${{ secrets.TM_EMAIL }}
-      TM_PW: ${{ secrets.PW }}
+      TM_PW: ${{ secrets.TM_PW }}
     steps:
       - uses: actions/checkout@v2
         with:
