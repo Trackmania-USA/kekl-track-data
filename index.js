@@ -120,7 +120,7 @@ const getTrackData = async loggedIn => {
                 for (var map of campaign.campaign.playlist) {
                     mapUids.push(map.mapUid)
                 }
-                
+
 
                 // 3. for each campaign, pass the list of maps to get the map details
                 const mapsDetail = await getMaps(accessToken, mapUids)
@@ -135,9 +135,9 @@ const getTrackData = async loggedIn => {
                 for (var mapDet of mapsDetail) {
                     console.log("Downloading records for map", mapDet.mapUid)
 
-                    const mapRecords = await getMapRecordsFromTMIO(groupId, mapDet.mapUid)  
+                    const mapRecords = await getMapRecordsFromTMIO(groupId, mapDet.mapUid)
                     camp.mapsRecords[mapDet.mapUid] = mapRecords;
-                    
+
                     var waitTill = new Date(new Date().getTime() + 2000);
                     while (waitTill > new Date()) { }
                     break;
@@ -161,21 +161,31 @@ const getTrackData = async loggedIn => {
 
 (async () => {
     console.log("Logging in...");
-    const credentials = Buffer.from(process.env.TM_EMAIL + ':' + process.env.TM_PW).toString('base64')
-    console.log("Got credentials");
-    const loggedIn = await login(credentials)
-    if (loggedIn) {
-        try {
+    if (process.env.TM_PW && process.env.TM_PW.length > 0) {
+        if (process.env.TM_EMAIL && process.env.TM_EMAIL.length > 0) {
 
-            await getTrackData(loggedIn)
-        } catch (e) {
-            console.log(e)
+            const credentials = Buffer.from(process.env.TM_EMAIL + ':' + process.env.TM_PW).toString('base64')
+            console.log("Got credentials");
+            const loggedIn = await login(credentials)
+            if (loggedIn) {
+                try {
+
+                    await getTrackData(loggedIn)
+                } catch (e) {
+                    console.log(e)
+                }
+
+            } else {
+                console.log("Failed to log in, aborting")
+
+            }
+        } else {
+            console.log("TM_EMAIL must be set")
         }
-
     } else {
-        console.log("Failed to log in, aborting")
-
+        console.log("TM_PW must be set")
     }
+
 })()
 
 console.log("Done")
