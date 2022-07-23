@@ -1,0 +1,24 @@
+{
+  "name": "kekl-track-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trackmania-USA/kekl-track-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trackmania-USA/kekl-track-data/issues"
+  },
+  "homepage": "https://github.com/Trackmania-USA/kekl-track-data#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "trackmania-api-node": "0.0.27",
+    "trackmania.io": "^3.2.0"
+  }
+}
