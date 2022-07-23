@@ -30,7 +30,7 @@ jobs:
         run: |
           git config --global user.name 'hmatt1'
           git config --global user.email "${TM_EMAIL}"
-          git add data1.json
+          git add data.json
           git commit -m "KEKL Data"
           git push
       - name: Notify KEKL Hunt
