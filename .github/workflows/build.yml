@@ -15,8 +15,8 @@ jobs:
       TM_PW: ${{ secrets.TM_PASSWORD }}
     steps:
       - uses: actions/checkout@v2
-#        with:
-#          token: ${{ secrets.TM_GITHUB_TOKEN }}
+        with:
+          token: ${{ secrets.TM_GITHUB_TOKEN }}
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
