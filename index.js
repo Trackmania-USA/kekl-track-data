@@ -140,14 +140,16 @@ const getTrackData = async loggedIn => {
                     
                     var waitTill = new Date(new Date().getTime() + 2000);
                     while (waitTill > new Date()) { }
+                    break;
                 }
 
                 data.campaigns.push(camp)
+                break;
             }
         }
 
         // 5. save output json
-        fs.writeFile('data.json', JSON.stringify(data, null, 2), function (err) {
+        fs.writeFile('data1.json', JSON.stringify(data, null, 2), function (err) {
             if (err) throw err;
         })
     } catch (e) {

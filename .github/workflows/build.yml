@@ -1,0 +1,35 @@
+name: Update KEKL Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 23 * * *'
+
+
+jobs:
+  kekl:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.TM_GITHUB_TOKEN }}
+      TM_EMAIL: ${{ secrets.TM_EMAIL }}
+      TM_PW: ${{ secrets.TM_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.TM_GITHUB_TOKEN }}
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.13.x
+          cache: npm
+      - name: npm ci
+        run: npm ci
+      - name: node .
+        run: node .
+      - name: KEKL Data
+        run: |
+          git config --global user.name 'hmatt1'
+          git config --global user.email "${TM_EMAIL}"
+          git add data1.json
+          git commit -m "KEKL Data"
+          git push
