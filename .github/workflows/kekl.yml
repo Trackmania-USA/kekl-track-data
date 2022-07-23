@@ -33,15 +33,14 @@ jobs:
           git add data1.json
           git commit -m "KEKL Data"
           git push
-          
-        - name: Notify KEKL Hunt
-          run: |
-            git config --global user.name 'hmatt1'
-            git config --global user.email "${TM_EMAIL}"
-            git config --global credential.helper cache
-            git clone https://${{secrets.TM_GITHUB_TOKEN}}@github.com/Trackmania-USA/kekl-hunt
-            cd kekl-hunt
-            date +%s > data-updated.txt
-            git add .
-            git commit -m "$(date)"
-            git push
+      - name: Notify KEKL Hunt
+        run: |
+          git config --global user.name 'hmatt1'
+          git config --global user.email "${TM_EMAIL}"
+          git config --global credential.helper cache
+          git clone https://${{secrets.TM_GITHUB_TOKEN}}@github.com/Trackmania-USA/kekl-hunt
+          cd kekl-hunt
+          date +%s > data-updated.txt
+          git add .
+          git commit -m "$(date)"
+          git push
