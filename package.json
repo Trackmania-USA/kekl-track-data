@@ -18,8 +18,6 @@
   "homepage": "https://github.com/Trackmania-USA/kekl-track-data#readme",
   "dependencies": {
     "axios": "^0.27.2",
-    "trackmania-api-node": "0.0.27",
-    "trackmania.io": "^3.2.0",
-    "waitfor": "^0.1.3"
+    "trackmania-api-node": "0.0.27"
   }
 }
