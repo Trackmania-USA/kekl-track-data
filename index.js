@@ -85,7 +85,9 @@ const getCampaign = async (clubId, campaignId) => {
     }
 };
 
+var retry = 0;
 const getMapRecordsFromTMIO = async (groupId, mapId) => {
+    try {
       const response = await axios.default({
           url: 'https://trackmania.io/api/leaderboard/' + groupId + '/' + mapId + '?offset=0&length=100',
           method: 'GET',
@@ -94,7 +96,15 @@ const getMapRecordsFromTMIO = async (groupId, mapId) => {
           },
       });
 
-    return response['data'];
+        retry = 0;
+        return response['data'];
+     } catch (error) {
+        retry = retry + 1;
+        if (retry > 3) {
+            process.exit()
+        }
+        return getMapRecordsFromTMIO(groupId, mapId);
+     }
 };
 
 const getTrackData = async loggedIn => {
