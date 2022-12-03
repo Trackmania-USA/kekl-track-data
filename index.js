@@ -58,6 +58,7 @@ const getClubActivity = async (clubId, offset = 0, length = 75) => {
 const loginAgain = async () => {
 
    loginAttempts = loginAttempts + 1;
+   console.log("logging in again", loginAttempts);
    if (loginAttempts >= 3) {
         console.log("Logging in too many times")
         process.exit();
