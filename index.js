@@ -3,6 +3,11 @@ console.log("Starting KEKL Track Data Downloader");
 const axios = require('axios')
 const { loginUbi, loginTrackmaniaUbi, getTrophyCount, getClubs, loginTrackmaniaNadeo, getClubCampaigns, getMaps, getMapRecords } = require('trackmania-api-node')
 
+var loggedIn;
+var credentials;
+var nadeoTokens;
+var loginAttempts = 0;
+
 var fs = require('fs');
 
 const login = async credentials => {
@@ -35,8 +40,8 @@ mySetHeaders = (auth, type) => type === 'basic'
     ? Object.assign(Object.assign({}, defaultHeaders), { Authorization: 'Basic ' + auth }) : type === 'ubi'
         ? Object.assign(Object.assign({}, defaultHeaders), { Authorization: 'ubi_v1 t=' + auth }) : type === 'nadeo' && Object.assign(Object.assign({}, defaultHeaders), { Authorization: 'nadeo_v1 t=' + auth });
 
-const getClubActivity = async (accessToken, clubId, offset = 0, length = 75) => {
-    const headers = mySetHeaders(accessToken, 'nadeo');
+const getClubActivity = async (clubId, offset = 0, length = 75) => {
+    const headers = mySetHeaders(nadeoTokens.accessToken, 'nadeo');
     const response = await axios.default({
         url: myUrls.liveServices +
             '/api/token/club/' + clubId + '/activity?active=1&offset=' +
@@ -49,24 +54,45 @@ const getClubActivity = async (accessToken, clubId, offset = 0, length = 75) => 
     return response['data'];
 };
 
-const getCampaign = async (accessToken, clubId, campaignId) => {
-    const headers = mySetHeaders(accessToken, 'nadeo');
-    const response = await axios.default({
-        url: 'https://live-services.trackmania.nadeo.live/api/token/club/' + clubId + '/campaign/' + campaignId,
-        method: 'GET',
-        headers,
-    });
-    return response['data'];
+
+const loginAgain = async () => {
+
+   loginAttempts = loginAttempts + 1;
+   if (loginAttempts >= 3) {
+        console.log("Logging in too many times")
+        process.exit();
+   }
+
+  loggedIn = await login(credentials)
+  const { accessToken, accountId, username } = loggedIn
+  nadeoTokens = await loginTrackmaniaNadeo(accessToken, 'NadeoLiveServices')
+}
+
+const getCampaign = async (clubId, campaignId) => {
+    try {
+      const headers = mySetHeaders(nadeoTokens.accessToken, 'nadeo');
+      const response = await axios.default({
+          url: 'https://live-services.trackmania.nadeo.live/api/token/club/' + clubId + '/campaign/' + campaignId,
+          method: 'GET',
+          headers,
+      });
+
+      return response['data'];
+    } catch (error) {
+        await loginAgain()
+        return getCampaign(accessToken, clubId, campaignId)
+    }
 };
 
 const getMapRecordsFromTMIO = async (groupId, mapId) => {
-    const response = await axios.default({
-        url: 'https://trackmania.io/api/leaderboard/' + groupId + '/' + mapId + '?offset=0&length=100',
-        method: 'GET',
-        headers: {
-            'User-Agent': 'MattDTO KEKL Hunt'
-        },
-    });
+      const response = await axios.default({
+          url: 'https://trackmania.io/api/leaderboard/' + groupId + '/' + mapId + '?offset=0&length=100',
+          method: 'GET',
+          headers: {
+              'User-Agent': 'MattDTO KEKL Hunt'
+          },
+      });
+
     return response['data'];
 };
 
@@ -82,7 +108,7 @@ const getTrackData = async loggedIn => {
         //      const trophyCount = await getTrophyCount(accessToken, accountId)
         //    console.log(username + ' trophies:')
         //  console.log(trophyCount)
-        const nadeoTokens = await loginTrackmaniaNadeo(accessToken, 'NadeoLiveServices')
+        nadeoTokens = await loginTrackmaniaNadeo(accessToken, 'NadeoLiveServices')
         //        console.log(nadeoTokens)
 
 
@@ -92,7 +118,7 @@ const getTrackData = async loggedIn => {
 
 
         // 1. get all kekl campaigns in the club
-        const activity = await getClubActivity(nadeoTokens.accessToken, keklClubId);
+        const activity = await getClubActivity(keklClubId);
         // fs.writeFile('activity.json', JSON.stringify(activity, null, 2), function (err) {
         //     if (err) throw err;
         // })
@@ -105,7 +131,7 @@ const getTrackData = async loggedIn => {
                 console.log("Downloading data for campaign: ", item.campaignId);
                 // 2. for each kekl campaign, list all the maps
                 const keklCampaignId = item.campaignId;
-                const campaign = await getCampaign(nadeoTokens.accessToken, keklClubId, keklCampaignId);
+                const campaign = await getCampaign(keklClubId, keklCampaignId);
                 // fs.writeFile('campaign.json', JSON.stringify(campaign, null, 2), function (err) {
                 //     if (err) throw err;
                 // })
@@ -162,9 +188,9 @@ const getTrackData = async loggedIn => {
     if (process.env.TM_PW && process.env.TM_PW.length > 0) {
         if (process.env.TM_EMAIL && process.env.TM_EMAIL.length > 0) {
 
-            const credentials = Buffer.from(process.env.TM_EMAIL + ':' + process.env.TM_PW).toString('base64')
+            credentials = Buffer.from(process.env.TM_EMAIL + ':' + process.env.TM_PW).toString('base64')
             console.log("Got credentials");
-            const loggedIn = await login(credentials)
+            loggedIn = await login(credentials)
             if (loggedIn) {
                 try {
 
