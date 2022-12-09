@@ -81,7 +81,7 @@ const getCampaign = async (clubId, campaignId) => {
       return response['data'];
     } catch (error) {
         await loginAgain()
-        return getCampaign(accessToken, clubId, campaignId)
+        return getCampaign(nadeoTokens.accessToken, clubId, campaignId)
     }
 };
 
