@@ -54,8 +54,10 @@ const getClubActivity = async (clubId, offset = 0, length = 75) => {
     return response['data'];
 };
 
+const delay = ms => new Promise(res => setTimeout(res, ms));
 
 const loginAgain = async () => {
+   await delay(120000);
 
    loginAttempts = loginAttempts + 1;
    console.log("logging in again", loginAttempts);
@@ -66,7 +68,9 @@ const loginAgain = async () => {
 
   loggedIn = await login(credentials)
   const { accessToken, accountId, username } = loggedIn
+  console.log("token", accessToken);
   nadeoTokens = await loginTrackmaniaNadeo(accessToken, 'NadeoLiveServices')
+  console.log("nadeoTokens", nadeoTokens);
 }
 
 const getCampaign = async (clubId, campaignId) => {
@@ -80,6 +84,7 @@ const getCampaign = async (clubId, campaignId) => {
 
       return response['data'];
     } catch (error) {
+        console.log("error", error);
         await loginAgain()
         return getCampaign(nadeoTokens.accessToken, clubId, campaignId)
     }
