@@ -141,6 +141,9 @@ const getTrackData = async loggedIn => {
 
         data.activity = activity;
 
+
+        var camps = [];
+
         // list campaigns
         for (var item of activity.activityList) {
             if (item.activityType == "campaign" && item.name.includes("$g$z$o")) {
@@ -155,7 +158,8 @@ const getTrackData = async loggedIn => {
                 var camp = {
                     detail: campaign,
                     mapsDetail: {},
-                    mapsRecords: {}
+                    mapsRecords: {},
+                    groupId: ""
                 }
 
                 var mapUids = []
@@ -163,29 +167,33 @@ const getTrackData = async loggedIn => {
                     mapUids.push(map.mapUid)
                 }
 
+                console.log("Downloading maps for mapUids: ", mapUids);
 
                 // 3. for each campaign, pass the list of maps to get the map details
-                const mapsDetail = await getMaps(accessToken, mapUids)
+                const mapsDetail = await getMaps(nadeoTokens.accessToken, mapUids)
                 // fs.writeFile('mapsDetail.json', JSON.stringify(mapsDetail, null, 2), function (err) {
                 //     if (err) throw err;
                 // }) 
                 camp.mapsDetail = mapsDetail;
 
                 // 4. for each campaign, pass the list of maps to get the records (sleep 2 seconds between every request)
-                const groupId = campaign.campaign.leaderboardGroupUid;
+                camp.groupId = campaign.campaign.leaderboardGroupUid;
 
-                for (var mapDet of mapsDetail) {
+            }
+            camps.push(camp);
+        }
+        for (var camp of camps) {
+             for (var mapDet of camp.mapsDetail) {
                     console.log("Downloading records for map", mapDet.mapUid)
 
-                    const mapRecords = await getMapRecordsFromTMIO(groupId, mapDet.mapUid)
+                    const mapRecords = await getMapRecordsFromTMIO(camp.groupId, mapDet.mapUid)
                     camp.mapsRecords[mapDet.mapUid] = mapRecords;
 
                     var waitTill = new Date(new Date().getTime() + 2000);
                     while (waitTill > new Date()) { }
-                }
+             }
 
-                data.campaigns.push(camp)
-            }
+             data.campaigns.push(camp)
         }
 
         // 5. save output json
