@@ -68,7 +68,8 @@ const loginAgain = async () => {
 
   loggedIn = await login(credentials)
   const { accessToken, accountId, username } = loggedIn
-  console.log("token", accessToken);
+  myAccessToken = accessToken;
+  console.log("token", myAccessToken);
   nadeoTokens = await loginTrackmaniaNadeo(accessToken, 'NadeoLiveServices')
   console.log("nadeoTokens", nadeoTokens);
 }
@@ -114,6 +115,7 @@ const getMapRecordsFromTMIO = async (groupId, mapId) => {
 
 const getTrackData = async loggedIn => {
     const { accessToken, accountId, username } = loggedIn
+    myAccessToken = accessToken;
     try {
 
         var data = {
@@ -170,7 +172,7 @@ const getTrackData = async loggedIn => {
                 console.log("Downloading maps for mapUids: ", mapUids);
 
                 // 3. for each campaign, pass the list of maps to get the map details
-                const mapsDetail = await getMaps(nadeoTokens.accessToken, mapUids)
+                const mapsDetail = await getMaps(myAccessToken, mapUids)
                 // fs.writeFile('mapsDetail.json', JSON.stringify(mapsDetail, null, 2), function (err) {
                 //     if (err) throw err;
                 // }) 
