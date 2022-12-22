@@ -180,9 +180,8 @@ const getTrackData = async loggedIn => {
 
                 // 4. for each campaign, pass the list of maps to get the records (sleep 2 seconds between every request)
                 camp.groupId = campaign.campaign.leaderboardGroupUid;
-
+                camps.push(camp);
             }
-            camps.push(camp);
         }
         for (var camp of camps) {
              for (var mapDet of camp.mapsDetail) {
