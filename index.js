@@ -40,7 +40,7 @@ mySetHeaders = (auth, type) => type === 'basic'
     ? Object.assign(Object.assign({}, defaultHeaders), { Authorization: 'Basic ' + auth }) : type === 'ubi'
         ? Object.assign(Object.assign({}, defaultHeaders), { Authorization: 'ubi_v1 t=' + auth }) : type === 'nadeo' && Object.assign(Object.assign({}, defaultHeaders), { Authorization: 'nadeo_v1 t=' + auth });
 
-const getClubActivity = async (clubId, offset = 0, length = 75) => {
+const getClubActivity = async (clubId, offset = 0, length = 100) => {
     const headers = mySetHeaders(nadeoTokens.accessToken, 'nadeo');
     const response = await axios.default({
         url: myUrls.liveServices +
