@@ -57,7 +57,7 @@ const getClubActivity = async (clubId, offset = 0, length = 100) => {
     const response2 = await axios.default({
         url: myUrls.liveServices +
             '/api/token/club/' + clubId + '/activity?active=1&offset=' +
-            101 +
+            100 +
             '&length=' +
             length,
         method: 'GET',
