@@ -51,7 +51,24 @@ const getClubActivity = async (clubId, offset = 0, length = 100) => {
         method: 'GET',
         headers,
     });
-    return response['data'];
+
+    var clubActivityData = response['data']
+
+    const response2 = await axios.default({
+        url: myUrls.liveServices +
+            '/api/token/club/' + clubId + '/activity?active=1&offset=' +
+            101 +
+            '&length=' +
+            length,
+        method: 'GET',
+        headers,
+    });
+
+    var clubActivityData2 = response2['data']
+
+    clubActivityData.activityList = clubActivityData.activityList.concat(clubActivityData2.activityList)
+
+    return clubActivityData;
 };
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
@@ -137,9 +154,7 @@ const getTrackData = async loggedIn => {
 
         // 1. get all kekl campaigns in the club
         const activity = await getClubActivity(keklClubId);
-        // fs.writeFile('activity.json', JSON.stringify(activity, null, 2), function (err) {
-        //     if (err) throw err;
-        // })
+        console.log("length of club activities:", activity.activityList.length)
 
         data.activity = activity;
 
