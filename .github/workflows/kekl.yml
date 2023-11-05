@@ -17,22 +17,15 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.TM_GITHUB_TOKEN }}
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.13.x
-          cache: npm
-      - name: npm ci
-        run: npm ci
-      - name: node .
-        run: node .
-      - name: KEKL Data
-        run: |
-          git config --global user.name 'hmatt1'
-          git config --global user.email "${TM_EMAIL}"
-          git add data.json
-          git commit -m "KEKL Data"
-          git push
+     # - name: Setup Node
+     #   uses: actions/setup-node@v3
+     #   with:
+     #     node-version: 16.13.x
+    #      cache: npm
+    #  - name: npm ci
+    #    run: npm ci
+    #  - name: node .
+    #    run: node .
       - name: Upload binaries to release
         uses: svenstaro/upload-release-action@v2
         with:
@@ -52,3 +45,5 @@ jobs:
           date +%s > data-updated.txt
           git add .
           git commit -m "$(date)"
+          
+        # git push
