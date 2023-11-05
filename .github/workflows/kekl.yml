@@ -33,6 +33,15 @@ jobs:
           git add data.json
           git commit -m "KEKL Data"
           git push
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.TM_GITHUB_TOKEN }}
+          file: target/release/kekldata
+          asset_name: data.json
+          tag: LATEST
+          overwrite: true
+          body: "The latest version of KEKL data"
       - name: Notify KEKL Hunt
         run: |
           git config --global user.name 'hmatt1'
@@ -43,4 +52,3 @@ jobs:
           date +%s > data-updated.txt
           git add .
           git commit -m "$(date)"
-          git push
